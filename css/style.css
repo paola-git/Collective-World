@@ -1,0 +1,37 @@
+header {
+    background-color: #050a30;
+    color: white;
+    position: sticky;
+}
+
+header,a {
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around; /*alinear horizontalmente */
+    align-items: center; /*alinear verticalmente */
+}
+
+#logo {
+    flex-grow: 0;
+}
+
+h1 {
+    padding-top: 30px;
+    flex-grow: 1;
+}
+
+nav {
+    flex-grow: 3;
+}
+
+body {
+    background-color: black;
+    color: wheat;
+}
