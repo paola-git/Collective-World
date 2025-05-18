@@ -31,7 +31,30 @@ nav {
     flex-grow: 3;
 }
 
+ul {
+    list-style: none;
+}
+
 body {
     background-color: black;
     color: wheat;
+    font-family: "Open Sans", sans-serif;
+}
+
+.productos {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly; /*alinear horizontalmente */
+    align-items: flex-start; /*alinear verticalmente */
+}
+
+.img-producto {
+    width: 10em;
+}
+
+footer {
+    background-color: #050a30;
+    color: white;
 }
