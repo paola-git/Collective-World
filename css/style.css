@@ -1,0 +1,153 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #050a30;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+.nav {
+    height: auto;
+    margin-right: 3%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    padding: 10px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font-family: "Open Sans", sans-serif;
+}
+
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/heroImage.webp);
+    height: 60vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.productos {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+}
+
+.img-producto {
+    width: 10em;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+footer {
+    background-color: #050a30;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: 500;
+    color: white;
+}
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 85f76394d7e95b1ee3e949e57e154f45ef840bf9
+>>>>>>> ae1120499f388494a5b1fd7ffcffc7e589c9cf3f
+ul.productos {
+    list-style: none;
+    padding-left: 0;   
+    margin: 0;          
+}
+
+.productos li {
+    text-align: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.resenia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px; /* Espacio entre elementos */
+    margin-bottom: 20px;
+}
+
+.btnFormat {
+    background-color: #050a30;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.destacados {
+    text-align: center;
+}
+
+.contenedor-boton-productos {
+    text-align: center;
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+.agregar-carrito {
+    display: block;
+>>>>>>> ad9f5b68d0d7827cf00dc1b9e97cb14061e88844
+>>>>>>> 85f76394d7e95b1ee3e949e57e154f45ef840bf9
+>>>>>>> ae1120499f388494a5b1fd7ffcffc7e589c9cf3f
+}

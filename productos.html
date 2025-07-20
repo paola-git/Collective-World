@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Collective World">
+    <meta name="description" content="Sitio de coleccionables para freaks y nerds">
+    <meta name="keywords" content="coleccionables, freaks, nerds, frakies, harry potter, star wars, lotr">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Tienda Online Collective World</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/COLLECTIVEWORLD.png" alt="logo Collective World" width="20%" id="logo">
+        </div>
+        
+        <div class="nav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="reviews.html">Reseñas</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main>
+        <!-- PRODUCTOS -->
+        <div id="productos">
+            <h2>Productos Disponibles</h2>
+            <ul class="productos">
+                <li>
+                    <h3>Muñeco Funko Harry Potter Quidditch</h3>
+                    <img src="images/harry-potter.jpg" alt="Imagen de Funko Harry Potter" class="img-producto">
+                    <p>$10000</p>
+                    <button class="agregar-carrito btnFormat" data-id="1" data-nombre="Muñeco Funko Harry Potter Quidditch" data-precio="10000">Agregar al Carrito</button>
+                </li>
+
+                <li>
+                    <h3>Muñeco Imantado Mickey Mouse Disney</h3>
+                    <img src="images/mickey-mouse.jpg" alt="Imagen de Muñeco Mickey Mouse" class="img-producto">
+                    <p>$15000</p>
+                    <button class="agregar-carrito btnFormat" data-id="2" data-nombre="Muñeco Imantado Mickey Mouse Disney" data-precio="15000">Agregar al Carrito</button>
+                </li>
+
+                <li>
+                    <h3>Muñeco Chopper Star Wars</h3>
+                    <img src="images/chopper.jpg" alt="Imagen de Muñeco Chopper Star Wars" class="img-producto">
+                    <p>$8000</p>
+                    <button class="agregar-carrito btnFormat" data-id="3" data-nombre="Muñeco Chopper Star Wars" data-precio="8000">Agregar al Carrito</button>
+                </li>
+
+                <li>
+                    <h3>Llavero Nasa</h3>
+                    <img src="images/llavero_nasa.jpg" alt="Imagen de Llavero Nasa" class="img-producto">
+                    <p>$2000</p>
+                    <button class="agregar-carrito btnFormat" data-id="3" data-nombre="Llavero Nasa" data-precio="2000">Agregar al Carrito</button>
+                </li>
+
+                <li>
+                    <h3>Cadena El Anillo Único</h3>
+                    <img src="images/el-anillo.jpg" alt="Imagen de Cadena El Anillo Único" class="img-producto">
+                    <p>$50000</p>
+                    <button class="agregar-carrito btnFormat" data-id="3" data-nombre="Cadena El Anillo Único" data-precio="50000">Agregar al Carrito</button>
+                </li>
+
+                <li>
+                    <h3>Muñeco Funko Lord Voldemort - Nagini</h3>
+                    <img src="images/Lord_Voldemort.jpg" alt="Imagen de Muñeco Funko Lord Voldemort - Nagini" class="img-producto">
+                    <p>$10000</p>
+                    <button class="agregar-carrito btnFormat" data-id="3" data-nombre="Muñeco Funko Lord Voldemort - Nagini" data-precio="10000">Agregar al Carrito</button>
+                </li>
+                </li>
+
+            </ul>
+        </div>
+
+        <!-- Carrito de Compras -->
+        <div id="carrito">
+            <h2>Carrito de Compras</h2>
+            <p>Total: $<span id="total-carrito">0</span></p>
+            <ul id="lista-carrito"></ul>
+            <button id="btnPagar" class="btnFormat">Pagar</button>
+            <button id="vaciar-carrito" class="btnFormat">Vaciar Carrito</button>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <p>Desarrollado por Paola Bocalandro para fines educativos - 2025</p> 
+        <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f"></i></a>
+    </footer>
+
+    <script src="./script/carrito.js"></script>
+</body>
+</html>
